@@ -26,7 +26,6 @@ Welcome to use RoboLogic's AAR (Android Archive) to JAR (Java Archive) dump Grad
 7. Unknown error conditions and suggestions, please send feedback to the e-mail address:timaviciix@outlook.com
 8. project open source URL:https://github.com/TIMAVICIIX/AAR-TO-JAR.GradlePlugin
 
-## 2024.5.12
-## Timaviciix
+### 2024.5.12<br>Timaviciix
 
-<div align="center"> ![Robo Logic](./projectImage/robo_logo.png) </div>
+<div align="center"> ![Robo Logic](projectImage/robo_logo.png) </div>
