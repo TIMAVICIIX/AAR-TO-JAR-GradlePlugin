@@ -51,14 +51,13 @@ class HttpGetFiles(private val messageSender: MessageSender) {
         }
 
         if (downloadList.isNotEmpty()) {
-
-            saveTempDir = RoboTools.createTmpDir(null)
-
             for (downloadItem in downloadList) {
 
                 val hashCode = hashJARVerification(downloadItem.second)
 
                 if (hashCode != null) {
+                    saveTempDir = RoboTools.createTmpDir(null)
+
                     val downloadName = downloadItem.first
                     val downloadUrl = URL(downloadItem.second)
 
