@@ -28,4 +28,6 @@ Welcome to use RoboLogic's AAR (Android Archive) to JAR (Java Archive) dump Grad
 
 ### 2024.5.12<br>Timaviciix
 
-<div align="center"> ![Robo Logic](projectImage/robo_logo.png) </div>
+<div align="center">
+  <img src="projectImage/robo_logo.png" width="50" height="50" alter="Robo Logic"/>
+</div>
