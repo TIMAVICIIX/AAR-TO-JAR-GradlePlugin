@@ -1,0 +1,22 @@
+<dependencies>
+
+    <!--Language Choose: Chinese,English
+    Default Language is English-->
+    <localLanguage>Chinese</localLanguage>
+
+    <!--Choose the mirror URL:True or False,default is False-->
+    <mirrorDownload>False</mirrorDownload>
+
+    <dependency name = "appcompat">
+        https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0-alpha03/appcompat-1.7.0-alpha03.aar
+    </dependency>
+
+    <dependency name = "core-ktx">
+        https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.13.0-rc01/core-ktx-1.13.0-rc01.aar
+    </dependency>
+
+    <dependency name = "recycleView">
+        https://dl.google.com/dl/android/maven2/androidx/recyclerview/recyclerview/1.4.0-alpha01/recyclerview-1.4.0-alpha01.aar
+    </dependency>
+
+</dependencies>
