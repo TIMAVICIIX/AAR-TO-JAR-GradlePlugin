@@ -1,9 +1,29 @@
 <div align="center">
-  <font color="#DAA520">🚧-Under maintenance-&emsp;<b>维护中</b>&emsp;-Under maintenance-🚧</font>
+  <font color="#3490de">🎉-“OPEN SOURCE” (computing)-&emsp;<b>开源中</b>&emsp;-“OPEN SOURCE” (computing)-🎉</font>
 </div>
 
 # 使用方法:<br>
 ## 将下面插件连接复制到您项目中的build.gradle.kts(Project)文件的plugins闭包内:<br>
+
+```
+id("io.github.timaviciix.robotools.aar-to-jar-tool") version "0.8.0-beta"
+```
+
+#### 如果您在添加Plugin后再构建时出现情况类似: Plugin with id 'io.github.timaviciix.robotools.aar-to-jar-tool' not found.时,请将以下代码添加至您build.gradle.kts(project)的buildScript闭包内或者新建该闭包：
+
+```
+buildscript {
+    repositories {
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
+    }
+    dependencies {
+        classpath("io.github.timaviciix:RoboLogic_AARToJAR_Plugin:0.8.0-beta")
+    }
+}
+```
+
 
 ## 注意事项:<br>
 欢迎使用RoboLogic的AAR(Android Archive)到JAR(Java Archive)转储Gradle工具,在使用前,您需要注意以下事项:
@@ -30,6 +50,26 @@
 
 # How to use.<br>
 ## Copy the following plugin link into the plugins closure of the build.gradle.kts (Project) file in your project:<br>
+
+```
+id("io.github.timaviciix.robotools.aar-to-jar-tool") version "0.8.0-beta"
+```
+
+#### If you add a Plugin and then build and something like: Plugin with id 'io.github.timaviciix.robotools.aar-to-jar-tool' is not found, add the following code to the buildScript closure of your build.gradle.kts(project) or create a new one. in your build.gradle.kts(project) buildScript closure or create a new closure:
+
+```
+buildscript {
+    repositories {
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
+    }
+    dependencies {
+        classpath("io.github.timaviciix:RoboLogic_AARToJAR_Plugin:0.8.0-beta")
+    }
+}
+```
+
 
 ## Notes:<br>
 Welcome to use RoboLogic's AAR (Android Archive) to JAR (Java Archive) dump Gradle tool , in the use of the following matters before you need to pay attention to .

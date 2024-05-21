@@ -1,22 +1,20 @@
 <dependencies>
 
-    <!--Language Choose: Chinese,English
-    Default Language is English-->
-    <localLanguage>Chinese</localLanguage>
+<!--Language Choose: Chinese,English
+Default Language is English-->
+<localLanguage>Chinese</localLanguage>
 
-    <!--Choose the mirror URL:True or False,default is False-->
-    <mirrorDownload>False</mirrorDownload>
+<!--注意，过高版本的构件可能不会出现在镜像库中；届时请配置为源构件库。-->
+<!--Note that artifacts that are too high version may not appear in the registry; At that time, please configure it as the source component library.-->
+<!--Choose the mirror URL:True or False,default is False-->
+<mirrorDownload>False</mirrorDownload>
 
-    <dependency name = "appcompat">
-        https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0-alpha03/appcompat-1.7.0-alpha03.aar
+<!--
+
+    <dependency name = "//xxxyy">
+       //url:https://xxx.yyy.com/xxx.zip/aar
     </dependency>
 
-    <dependency name = "core-ktx">
-        https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.13.0-rc01/core-ktx-1.13.0-rc01.aar
-    </dependency>
-
-    <dependency name = "recycleView">
-        https://dl.google.com/dl/android/maven2/androidx/recyclerview/recyclerview/1.4.0-alpha01/recyclerview-1.4.0-alpha01.aar
-    </dependency>
+-->
 
 </dependencies>
